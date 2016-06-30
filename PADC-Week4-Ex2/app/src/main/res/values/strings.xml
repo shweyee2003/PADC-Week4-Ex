@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">PADC-Week4-Ex</string>
+    <string name="action_settings">Settings</string>
+    <string name="left_menu_linkedin">PADC-LinkedIn</string>
+    <string name="left_menu_jobsearch">PADC-Job Search</string>
+    <string name="pulse">PADC-Pulse</string>
+    <string name="padc_winzin">PADC-သန္ဇင္း</string>
+    <string name="padc_film">PADC-Film</string>
+    <string name="name">Shwe Yee</string>
+    <string name="career">Software Engineer</string>
+    <string name="company">Bechalor of Computer Science</string>
+    <string name="profile">End-to-end mobile solution developer based in Myanmar and Singapore.Passionate on...</string>
+    <string name="leftbox_text">Who\'s viewed your profile</string>
+    <string name="righttbox_text">Who\'s viewed your share</string>
+    <string name="showcase">Showcase what you know,add suggest skills to your profile.</string>
+    <string name="greeting">Good morning,Shwe Yee</string>
+    <string name="tv_heading_text">China Has High-Performing/n
+Companies-It Just Need a Lot
+More of Them</string>
+</resources>
