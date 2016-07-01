@@ -21,7 +21,7 @@ public class PulseFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view=inflater.inflate(R.layout.fragment_pulse, container, false);
-        ((AppCompatActivity)getActivity()).getSupportActionBar().setTitle(R.string.pulse);
+       // ((AppCompatActivity)getActivity()).getSupportActionBar().setTitle(R.string.pulse);
         return view;
     }
 

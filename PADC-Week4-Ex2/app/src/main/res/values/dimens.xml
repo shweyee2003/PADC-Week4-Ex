@@ -3,7 +3,7 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="fab_margin">16dp</dimen>
-    <dimen name="status_bar_height">190dp</dimen>
+    <dimen name="status_bar_height">150dp</dimen>
 
     <!-- Generic with ratio -->
     <dimen name="margin_small">4dp</dimen>

@@ -105,7 +105,7 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:background="@drawable/background_with_shadow">
+                    android:background="#FFF">
                     <TextView
                         android:id="@+id/tv_profileview"
                         android:layout_width="wrap_content"
@@ -118,6 +118,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="48dp"
                         android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
                         android:fontFamily="sans-serif-light"
                         android:layout_below="@id/tv_profileview"
                         android:text="@string/leftbox_text"
@@ -127,7 +128,7 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:background="@drawable/background_with_shadow">
+                    android:background="#FFF">
                     <TextView
                         android:id="@+id/tv_profileshare"
                         android:layout_width="wrap_content"
@@ -140,6 +141,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="48dp"
                         android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
                         android:fontFamily="sans-serif-light"
                         android:layout_below="@id/tv_profileshare"
                         android:text="@string/righttbox_text"

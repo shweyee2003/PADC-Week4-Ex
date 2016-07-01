@@ -14,6 +14,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
 
 import com.example.windows.padc_week4_ex.R;
 import com.example.windows.padc_week4_ex.fragments.FilmFragment;
@@ -27,6 +28,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
     private DrawerLayout drawerLayout;
     private NavigationView navigationView;
+    private TextView tv_toolbartitle;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -36,6 +38,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
         drawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
         navigationView = (NavigationView) findViewById(R.id.navigation_view);
+        tv_toolbartitle=(TextView)findViewById(R.id.tv_screen_title);
         Menu leftMenu = navigationView.getMenu();
         navigationView.setNavigationItemSelectedListener(this);
         navigatetoLinkedIn();
@@ -124,6 +127,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     private void navigatetoLinkedIn()
     {
         LinkedInFragment linkedinfragment=LinkedInFragment.newInstance();
+        tv_toolbartitle.setText(R.string.left_menu_linkedin);
         getSupportFragmentManager().beginTransaction()
                 .replace(R.id.fl_container, linkedinfragment)
                 .commit();
@@ -132,13 +136,14 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     private void navigatetojobsearch()
     {
         JobSearchFragment jobsearchfragment=JobSearchFragment.newInstance();
+        tv_toolbartitle.setText(R.string.left_menu_jobsearch);
         getSupportFragmentManager().beginTransaction()
                 .replace(R.id.fl_container, jobsearchfragment)
                 .commit();
     }
     private  void navigatetofilm(){
         FilmFragment filmFragment=FilmFragment.newInstance();
-        getSupportActionBar().setTitle(R.string.padc_film);
+        tv_toolbartitle.setText(R.string.padc_film);
         getSupportFragmentManager().beginTransaction()
                 .replace(R.id.fl_container, filmFragment)
                 .commit();
@@ -147,6 +152,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     private void navigatetopulse()
     {
         PulseFragment pulsefragment=PulseFragment.newInstance();
+        tv_toolbartitle.setText(R.string.pulse);
         getSupportFragmentManager().beginTransaction()
                 .replace(R.id.fl_container, pulsefragment)
                 .commit();
@@ -154,6 +160,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     private void navigatetowinzin()
     {
         WinZinFragment winzinfragment=WinZinFragment.newInstance();
+        tv_toolbartitle.setText(R.string.padc_winzin);
         getSupportFragmentManager().beginTransaction()
                 .replace(R.id.fl_container, winzinfragment)
                 .commit();

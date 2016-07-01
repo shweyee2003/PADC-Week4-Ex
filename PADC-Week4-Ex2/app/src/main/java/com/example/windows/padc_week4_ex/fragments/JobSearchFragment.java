@@ -14,6 +14,7 @@ import com.example.windows.padc_week4_ex.R;
  */
 public class JobSearchFragment extends Fragment {
 
+
     public JobSearchFragment() {
     }
 
@@ -21,7 +22,7 @@ public class JobSearchFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view=inflater.inflate(R.layout.fragment_jobsearch, container, false);
-        ((AppCompatActivity)getActivity()).getSupportActionBar().setTitle(R.string.left_menu_jobsearch);
+        //((AppCompatActivity)getActivity()).getSupportActionBar().setTitle(R.string.left_menu_jobsearch);
         return view;
     }
 
