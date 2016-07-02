@@ -6,6 +6,7 @@
     <string name="pulse">PADC-Pulse</string>
     <string name="padc_winzin">PADC-သန္ဇင္း</string>
     <string name="padc_film">PADC-Film</string>
+    <!--LinkedIn-->
     <string name="name">Shwe Yee</string>
     <string name="career">Software Engineer</string>
     <string name="company">Bechalor of Computer Science</string>
@@ -13,8 +14,51 @@
     <string name="leftbox_text">Who\'s viewed your profile</string>
     <string name="righttbox_text">Who\'s viewed your share</string>
     <string name="showcase">Showcase what you know,add suggest skills to your profile.</string>
+    <string name="profileviewcount">37</string>
+    <string name="strength">Strengthen your profile</string>
+    <!--flim-->
+    <string name="btndtl_text">Details</string>
+    <string name="film_title">WARCRAFT: THE BEGINING (3D)</string>
+    <string name="story">Story</string>
+    <string name="film_desc">The peaceful realm of Azeroth stands on the brink of war as its civilization faces a fearsome race of invaders: orc warrious fleeing their dying home to colonize another. As a portal opens to content...</string>
+    <string name="showin">Now Showing In</string>
+    <string name="showinname1">Movie Planet</string>
+    <string name="showinplace1">Pyin Oo Lwin</string>
+    <string name="showintime1">10:00 AM, 12:30 AM, 3:30 AM, 6:30 AM</string>
+    <string name="showinname2">Mingalar Tun Thiri</string>
+    <string name="showinplace2">Pyay</string>
+    <string name="showintime2">12:30 PM, 03:00 PM, 6:00 PM, 8:30 PM</string>
+    <!--Winzin-->
+    <string name="noveltitle">အူေၾကာင္းက်ား</string>
+    <string name="authorname">နီကိုရဲ</string>
+    <string name="novelprice">700 Kyats</string>
+    <string name="novelsize">File size:2.43MB</string>
+    <string name="relatedbook">Related Books</string>
+    <string name="comicnovel">ဟာသစာအုပ္အမ်ိဳးအစားမ်ား</string>
+    <!--pulse-->
     <string name="greeting">Good morning,Shwe Yee</string>
+    <string name="pulsedesc">Here are your top stories for the day</string>
+    <string name="pulseheading">Editor\'s Pick</string>
+    <string name="pulseshare">Gordon Orr / 131 shares</string>
     <string name="tv_heading_text">China Has High-Performing/n
 Companies-It Just Need a Lot
 More of Them</string>
+    <string name="jobalert">Create a job alert</string>
+    <string name="jobsearchstdfirstline">Developer/Senior Developer</string>
+    <string name="jobsearchstdsecondline">Standard Chartered Bank</string>
+    <string name="jobsearchcountry">Singapore</string>
+    <string name="btn_new">New</string>
+    <string name="fbfirstline">Client Partner,Mobile Publisher Sales - Japan</string>
+    <string name="fbsecondline">Facebook</string>
+    <string name="sapfirstline">SAP Partner Soultion Center Head for APJ Greater China</string>
+    <string name="sapsecondline">SAP</string>
+    <string name="sapthirdline">Singapore - 01</string>
+    <string name="cloudfirstline">Technical Architect - Marketing Cloud</string>
+    <string name="tv_cloudsecondline">saleforce.com</string>
+    <string name="jobsearch1hr">1w</string>
+    <string name="jobsearch3w">3w</string>
+
+    <!--Job Search-->
+
+
 </resources>

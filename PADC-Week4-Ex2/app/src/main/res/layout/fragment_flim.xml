@@ -29,17 +29,18 @@
                 android:id="@+id/tv_title"
                 android:layout_width="wrap_content"
                 android:layout_height="48dp"
-                android:text="WARCRAFT: THE BEGINING (3D) "
+                android:text="@string/film_title"
                 android:paddingLeft="15dp"
                 android:fontFamily="sans-serif-light"
                />
             <Button
+                android:id="@+id/btn_details"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/tv_title"
                 android:layout_marginLeft="15dp"
                 android:background="@drawable/btn_bgwhite"
-                android:text="Details"
+                android:text="@string/btndtl_text"
                 />
 
             <ImageView
@@ -68,7 +69,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="48dp"
-            android:text="Story"
+            android:text="@string/story"
             android:fontFamily="sans-serif-light"
             android:textSize="20dp"
             android:paddingLeft="10dp"
@@ -78,7 +79,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="48dp"
-            android:text="The peaceful realm of Azeroth stands on the brink of war as its civilization faces a fearsome race of invaders: orc warrious fleeing their dying home to colonize another. As a portal opens to content..."
+            android:text="@string/film_desc"
             android:fontFamily="sans-serif-light"
             android:textSize="12dp"
             android:lineSpacingMultiplier="1.2"
@@ -86,6 +87,7 @@
             android:paddingTop="15dp"
             />
         <TextView
+            android:id="@+id/tv_readmore"
             android:layout_width="match_parent"
             android:layout_height="48dp"
             android:text="Read More"
@@ -102,13 +104,15 @@
         android:background="#f9f7f7"
         android:layout_marginTop="10dp">
         <TextView
+            android:id="@+id/tv_showin"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Now Showing In"
+            android:text="@string/showin"
             android:fontFamily="sans-serif-light"
             android:textSize="15dp"
             android:paddingLeft="4dp"/>
         <LinearLayout
+            android:id="@+id/linear_showinfo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
@@ -120,19 +124,22 @@
                 android:layout_weight="3"
                 android:orientation="vertical">
                 <TextView
+                    android:id="@+id/tv_showinname1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Movie Planet"
+                    android:text="@string/showinname1"
                     android:fontFamily="sans-serif-light"/>
                 <TextView
+                    android:id="@+id/tv_showinplace1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Pyin Oo Lwin"
+                    android:text="@string/showinplace1"
                     android:fontFamily="sans-serif-light"/>
                 <TextView
+                    android:id="@+id/tv_showintime1"
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
-                    android:text="10:00 AM, 12:30 AM, 3:30 AM, 6:30 AM "
+                    android:text="@string/showintime1"
                     android:fontFamily="sans-serif-light"/>
 
             </LinearLayout>
@@ -142,6 +149,7 @@
                 android:orientation="horizontal"
                 android:layout_weight="1">
                 <ImageView
+                    android:id="@+id/iv_showinshare1"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -149,6 +157,7 @@
                     android:src="@drawable/ic_share_black_24dp1"
                    />
                 <ImageView
+                    android:id="@+id/iv_showincall1"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -160,6 +169,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/linear_showininfo2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
@@ -171,19 +181,22 @@
                 android:layout_weight="3"
                 android:orientation="vertical">
                 <TextView
+                    android:id="@+id/tv_showinname2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Mingalar Tun Thiri "
+                    android:text="@string/showinname2"
                     android:fontFamily="sans-serif-light"/>
                 <TextView
+                    android:id="@+id/tv_showinplace2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Pyay"
+                    android:text="@string/showinplace2"
                     android:fontFamily="sans-serif-light"/>
                 <TextView
+                    android:id="@+id/tv_showintime2"
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
-                    android:text="12:30 PM, 03:00 PM, 6:00 PM, 8:30 PM "
+                    android:text="@string/showintime2"
                     android:fontFamily="sans-serif-light"/>
             </LinearLayout>
             <LinearLayout
@@ -192,12 +205,14 @@
                 android:orientation="horizontal"
                 android:layout_weight="1">
                 <ImageView
+                    android:id="@+id/iv_showinshare2"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:src="@drawable/ic_share_black_24dp1"
                     />
                 <ImageView
+                    android:id="@+id/iv_showincall2"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"

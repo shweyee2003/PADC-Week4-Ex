@@ -29,22 +29,26 @@
             android:paddingTop="5dp"
             >
             <ImageView
+                android:id="@+id/iv_radiobtnchecked"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="2"
                 android:paddingRight="200dp"
                 android:src="@drawable/ic_radio_button_checked_black_24dp"/>
             <ImageView
+                android:id="@+id/iv_perm_idetity"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="0.4"
                 android:src="@drawable/ic_perm_identity_black_24dp"/>
             <ImageView
+                android:id="@+id/iv_pulsesearch"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="0.4"
                 android:src="@drawable/ic_search_black_24dp"/>
             <ImageView
+                android:id="@+id/iv_brightness"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="0.4"
@@ -64,6 +68,7 @@
             android:text="@string/greeting"/>
 
         <TextView
+            android:id="@+id/tv_pulsedesc"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/tv_greeting"
@@ -71,7 +76,7 @@
             android:textColor="#FFF"
             android:fontFamily="sans-serif-light"
             android:textSize="20dp"
-            android:text="Here are your top stories for the day"/>
+            android:text="@string/pulsedesc"/>
     </RelativeLayout>
     <ScrollView
         android:layout_width="match_parent"
@@ -87,7 +92,7 @@
                 android:id="@+id/tv_heading"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Editor's Pick"
+                android:text="@string/pulseheading"
                 android:layout_alignParentLeft="true"
                 android:paddingTop="25dp"
                 android:paddingLeft="15dp"
@@ -124,8 +129,9 @@
                 android:layout_below="@id/tv_heading_text"
                 android:paddingLeft="15dp"
                 android:fontFamily="sans-serif-light"
-                android:text="Gordon Orr / 131 shares"/>
+                android:text="@string/pulseshare"/>
             <ImageView
+                android:id="@+id/iv_pulseimage"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/tv_share"

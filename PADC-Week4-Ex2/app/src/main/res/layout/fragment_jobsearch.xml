@@ -5,6 +5,7 @@
     android:layout_height="match_parent"
     android:background="#897979">
     <LinearLayout
+        android:id="@+id/linear_upperblock"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:orientation="horizontal"
@@ -12,17 +13,19 @@
         android:layout_margin="15dp"
         android:background="#FFF">
         <ImageView
+            android:id="@+id/iv_notification"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:paddingTop="15dp"
             android:src="@drawable/ic_notifications_black_24dp"/>
         <Switch
+            android:id="@+id/switch_jobalert"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="6"
             android:paddingTop="15dp"
-            android:text="Create a job alert"
+            android:text="@string/jobalert"
             android:layout_marginTop="8dp"/>
     </LinearLayout>
 
@@ -58,7 +61,7 @@
                     android:id="@+id/tv_firstline"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Developer/Senior Developer"
+                    android:text="@string/jobsearchstdfirstline"
                     android:paddingTop="5dp"/>
                 <TextView
                     android:id="@+id/tv_secondline"
@@ -66,15 +69,16 @@
                     android:layout_height="wrap_content"
                     android:paddingTop="5dp"
                     android:layout_below="@id/tv_firstline"
-                    android:text="Standard Chartered Bank"/>
+                    android:text="@string/jobsearchstdsecondline"/>
                 <TextView
                     android:id="@+id/tv_thirdline"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:paddingTop="5dp"
                     android:layout_below="@id/tv_secondline"
-                    android:text="Singapore"/>
+                    android:text="@string/jobsearchcountry"/>
                 <ImageView
+                    android:id="@+id/iv_stdline"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/tv_thirdline"
@@ -82,13 +86,14 @@
                     android:src="@drawable/ic_remove_black_24dp1"/>
             </RelativeLayout>
             <Button
+                android:id="@+id/btn_new"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:layout_marginTop="10dp"
                 android:layout_marginRight="8dp"
                 android:background="@drawable/btn_bg"
-                android:text="New"
+                android:text="@string/btn_new"
                 android:textColor="#FFF"/>
 
 
@@ -102,6 +107,7 @@
             android:layout_below="@id/linear_stdchartered"
             android:background="#FFF">
             <ImageView
+                android:id="@+id/iv_fbicon"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -119,7 +125,7 @@
                     android:id="@+id/tv_fbfirstline"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Client Partner,Mobile Publisher Sales - Japan"
+                    android:text="@string/fbfirstline"
                     android:paddingTop="5dp"/>
                 <TextView
                     android:id="@+id/tv_fbsecondline"
@@ -127,15 +133,16 @@
                     android:layout_height="wrap_content"
                     android:paddingTop="5dp"
                     android:layout_below="@id/tv_fbfirstline"
-                    android:text="Facebook"/>
+                    android:text="@string/fbsecondline"/>
                 <TextView
                     android:id="@+id/tv_fbthirdline"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:paddingTop="5dp"
                     android:layout_below="@id/tv_fbsecondline"
-                    android:text="Singapore"/>
+                    android:text="@string/jobsearchcountry"/>
                 <ImageView
+                    android:id="@+id/iv_fbline"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/tv_fbthirdline"
@@ -143,12 +150,13 @@
                     android:src="@drawable/ic_remove_black_24dp1"/>
             </RelativeLayout>
             <TextView
+                android:id="@+id/tv_fb_hr"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:layout_marginTop="10dp"
                 android:paddingLeft="20dp"
-                android:text="3w" />
+                android:text="@string/jobsearch3w" />
 
         </LinearLayout>
 
@@ -177,7 +185,7 @@
                     android:id="@+id/tv_sapfirstline"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="SAP Partner Soultion Center Head for APJ Greater China"
+                    android:text="@string/sapfirstline"
                     android:paddingTop="5dp"/>
                 <TextView
                     android:id="@+id/tv_sapsecondline"
@@ -185,15 +193,16 @@
                     android:layout_height="wrap_content"
                     android:paddingTop="5dp"
                     android:layout_below="@id/tv_sapfirstline"
-                    android:text="SAP"/>
+                    android:text="@string/sapsecondline"/>
                 <TextView
                     android:id="@+id/tv_sapthirdline"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:paddingTop="5dp"
                     android:layout_below="@id/tv_sapsecondline"
-                    android:text="Singapore - 01"/>
+                    android:text="@string/sapthirdline"/>
                 <ImageView
+                    android:id="@+id/iv_sapline"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/tv_sapthirdline"
@@ -201,12 +210,13 @@
                     android:src="@drawable/ic_remove_black_24dp1"/>
             </RelativeLayout>
             <TextView
+                android:id="@+id/tv_saphr"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:layout_marginTop="10dp"
                 android:paddingLeft="20dp"
-                android:text="3w" />
+                android:text="@string/jobsearch3w" />
 
         </LinearLayout>
 
@@ -235,7 +245,7 @@
                     android:id="@+id/tv_cloudfirstline"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Technical Architect - Marketing Cloud"
+                    android:text="@string/cloudfirstline"
                     android:paddingTop="5dp"/>
                 <TextView
                     android:id="@+id/tv_cloudsecondline"
@@ -243,16 +253,17 @@
                     android:layout_height="48dp"
                     android:paddingTop="5dp"
                     android:layout_below="@id/tv_cloudfirstline"
-                    android:text="saleforce.com"/>
+                    android:text="@string/tv_cloudsecondline"/>
 
             </RelativeLayout>
             <TextView
+                android:id="@+id/tv_cloudhr"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:layout_marginTop="10dp"
                 android:paddingLeft="20dp"
-                android:text="1w" />
+                android:text="@string/jobsearch1hr" />
 
         </LinearLayout>
 
