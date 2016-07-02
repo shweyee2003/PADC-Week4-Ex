@@ -3,6 +3,7 @@
     package="com.example.windows.padc_week4_ex">
 
     <application
+        android:name=".PADCWeek4ExApp"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"

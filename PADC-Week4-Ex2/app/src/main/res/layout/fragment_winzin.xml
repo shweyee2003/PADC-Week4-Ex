@@ -23,21 +23,21 @@
             android:orientation="vertical"
             android:layout_marginRight="5dp"
             android:layout_alignParentRight="true">
-            <TextView
+            <com.example.windows.padc_week4_ex.components.textviews.MMTextView
                 android:id="@+id/tv_winzintitle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingRight="130dp"
                 android:layout_marginLeft="5dp"
                 android:text="@string/noveltitle"/>
-            <TextView
+            <com.example.windows.padc_week4_ex.components.textviews.MMTextView
                 android:id="@+id/tv_winzinauthour"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingRight="130dp"
                 android:layout_marginLeft="5dp"
                 android:text="@string/authorname"/>
-            <TextView
+            <com.example.windows.padc_week4_ex.components.textviews.MMTextView
                 android:id="@+id/tv_novelprice"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -83,7 +83,7 @@
         android:text="@string/relatedbook"
         android:layout_marginLeft="10dp"/>
 
-    <TextView
+    <com.example.windows.padc_week4_ex.components.textviews.MMTextView
         android:id="@+id/tv_comicnovels"
         android:layout_width="wrap_content"
         android:layout_height="48dp"

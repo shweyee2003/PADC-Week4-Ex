@@ -1,6 +1,7 @@
 package com.example.windows.padc_week4_ex.components.textviews;
 
 import android.content.Context;
+import android.graphics.Typeface;
 import android.util.AttributeSet;
 import android.widget.TextView;
 

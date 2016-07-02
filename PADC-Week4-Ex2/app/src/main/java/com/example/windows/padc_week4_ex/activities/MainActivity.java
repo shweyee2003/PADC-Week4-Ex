@@ -22,6 +22,8 @@ import com.example.windows.padc_week4_ex.fragments.JobSearchFragment;
 import com.example.windows.padc_week4_ex.fragments.LinkedInFragment;
 import com.example.windows.padc_week4_ex.fragments.PulseFragment;
 import com.example.windows.padc_week4_ex.fragments.WinZinFragment;
+import com.example.windows.padc_week4_ex.utils.MMFontUtils;
+
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener,
         MenuItemCompat.OnActionExpandListener {
@@ -40,6 +42,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         navigationView = (NavigationView) findViewById(R.id.navigation_view);
         tv_toolbartitle=(TextView)findViewById(R.id.tv_screen_title);
         Menu leftMenu = navigationView.getMenu();
+        MMFontUtils.applyMMFontToMenu(leftMenu);
         navigationView.setNavigationItemSelectedListener(this);
         navigatetoLinkedIn();
         final ActionBar actionBar = getSupportActionBar();
